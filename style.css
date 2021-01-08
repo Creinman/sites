@@ -1,0 +1,86 @@
+/* -----  google Font  -----*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Roboto, sans-serif;
+}
+.dws-wrapper {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+/* -----  Выравнивание по середине  -----*/
+.dws-wrapper {
+ display: flex;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+}
+
+.dws-form {
+ background: #ffffff; 
+ padding: 10px; 
+ width: 330px;
+}
+.dws-form a {
+ text-decoration: none;
+ transition: 0.5s;
+ color: #298cad;
+}
+.dws-form a:hover {
+ color: #36d2ff;
+}
+.dws-form ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+.dws-form input {
+ display: block;
+ width: 100%;
+}
+
+.del {
+ display: none;
+}
+
+<form class="tab-form del">
+
+.dws-form {
+ background: rgba(255, 255, 255, 0.2);
+…
+
+.tab-form {
+ background: #fff;
+}
+
+
+
+
+
+path[Attributes Style] {
+    d: path("M 0.5 0.5 L 497.5 0.5 L 497.5 318.5 L 0.5 318.5 L 0.5 0.5 Z");
+    fill: rgb(255, 255, 255);
+    stroke: rgb(230, 230, 230);
+    fill-opacity: 0;
+    stroke-width: 1;
+    stroke-opacity: 1;
+    transform: translate(10, 30);
+}
+
+Style Attribute {
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 518px;
+    height: 403px;
+    padding: 0px;
+    cursor: default;
+    touch-action: auto;
+}
+
+
